@@ -74,6 +74,17 @@ export function SiteFooter() {
           <p className="text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} Rupiyoo Connect. All rights reserved.
           </p>
+          <p className="text-sm text-muted-foreground">
+            Designed and developed by{' '}
+            <a
+              href="https://speedopus.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-primary hover:underline"
+            >
+              Speedopus
+            </a>
+          </p>
           <p className="text-xs text-muted-foreground/80 mt-2 md:mt-0 max-w-md text-center md:text-right">
             Disclaimer: Rupiyoo is a technology platform that facilitates connections between borrowers and lenders. We do not lend money directly or guarantee any loans.
           </p>
