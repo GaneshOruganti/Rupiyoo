@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ContactForm } from './contact-form';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Rupiyoo Connect',
+  title: 'Contact Us',
   description: 'Connect with the Rupiyoo support team. We are available to assist you with your questions.',
 };
 

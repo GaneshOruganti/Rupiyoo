@@ -7,7 +7,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Blog | Rupiyoo Connect',
+  title: 'Blog',
   description: 'Explore our latest articles on financial insights, secure lending, credit health, and fraud awareness.',
 };
 

@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ShieldCheck, Eye, FileText, Handshake } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About Us | Rupiyoo Connect',
+  title: 'About Us',
   description: 'Discover Rupiyoo\'s mission to forge a transparent, secure, and streamlined marketplace for borrowers and lenders.',
 };
 

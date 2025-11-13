@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/accordion"
 
 export const metadata: Metadata = {
-  title: 'FAQ | Rupiyoo Connect',
+  title: 'FAQ',
   description: 'Get answers to common questions about the Rupiyoo platform for both borrowers and lenders.',
 };
 

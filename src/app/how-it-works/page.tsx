@@ -6,7 +6,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Terminal } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: 'How It Works | Rupiyoo Connect',
+  title: 'How It Works',
   description: 'Learn the straightforward process for borrowers and lenders on the Rupiyoo platform.',
 };
 

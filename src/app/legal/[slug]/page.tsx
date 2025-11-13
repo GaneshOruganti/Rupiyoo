@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: 'Document Not Found' };
   }
   return {
-    title: `${doc.title} | Rupiyoo Connect`,
-    description: `Read the ${doc.title} for Rupiyoo Connect.`,
+    title: doc.title,
+    description: `Read the ${doc.title} for Rupiyoo.`,
   };
 }
 

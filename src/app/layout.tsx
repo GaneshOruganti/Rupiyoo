@@ -9,7 +9,10 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
-  title: 'Rupiyoo Connect | Seamlessly Connecting Borrowers & Lenders',
+  title: {
+    default: 'Rupiyoo',
+    template: '%s | Rupiyoo',
+  },
   description:
     'Rupiyoo serves as a digital marketplace to connect verified money lenders with individuals seeking loans. Post a loan request or sign up as a lender today.',
   keywords: ['loan', 'lender', 'borrower', 'p2p lending', 'personal finance', 'fintech india'],

@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     return { title: 'Post Not Found' };
   }
   return {
-    title: `${post.title} | Rupiyoo Blog`,
+    title: post.title,
     description: post.description,
   };
 }
