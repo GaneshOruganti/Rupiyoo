@@ -17,7 +17,6 @@ import {
 } from '@/components/ui/sidebar';
 import {
   LayoutDashboard,
-  ShieldCheck,
   MessageSquare,
   User,
   LogOut,
@@ -31,7 +30,6 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 const ICONS: Record<string, LucideIcon> = {
   LayoutDashboard,
-  ShieldCheck,
   MessageSquare,
   User,
 };
@@ -45,11 +43,6 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       name: 'Dashboard',
       href: `/dashboard/${role}`,
       icon: 'LayoutDashboard',
-    },
-    {
-      name: 'Verification',
-      href: '/dashboard/verification',
-      icon: 'ShieldCheck',
     },
     {
       name: 'Messages',
