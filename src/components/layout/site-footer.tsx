@@ -82,7 +82,7 @@ export function SiteFooter() {
               rel="noopener noreferrer"
               className="font-medium text-primary hover:underline"
             >
-              Speedopus
+              Speedopus India
             </a>
           </p>
           <p className="text-xs text-muted-foreground/80 mt-2 md:mt-0 max-w-md text-center md:text-right">
