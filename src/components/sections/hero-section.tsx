@@ -1,13 +1,31 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Download, Users } from 'lucide-react';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { ArrowRight, Download, Users, HandCoins } from 'lucide-react';
 import { PLAY_STORE_URL } from '@/lib/constants';
 
-export function HeroSection() {
-  const heroImage = PlaceHolderImages.find(p => p.id === 'app-in-phone');
+function MobileAppPreview() {
+    return (
+        <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-[2.5rem] h-[550px] w-[270px] shadow-xl">
+            <div className="w-[125px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
+            <div className="h-[40px] w-[3px] bg-gray-800 absolute -left-[11px] top-[64px] rounded-l-lg"></div>
+            <div className="h-[40px] w-[3px] bg-gray-800 absolute -left-[11px] top-[120px] rounded-l-lg"></div>
+            <div className="h-[50px] w-[3px] bg-gray-800 absolute -right-[11px] top-[100px] rounded-r-lg"></div>
+            <div className="rounded-[2rem] overflow-hidden w-full h-full bg-card flex flex-col items-center justify-center">
+                <div className="text-center">
+                    <HandCoins className="h-20 w-20 text-primary mx-auto" />
+                    <h2 className="mt-4 text-4xl font-bold text-foreground">
+                        Rupiyoo<span className="text-primary">.</span>
+                    </h2>
+                    <p className="mt-2 text-sm text-muted-foreground px-4">Connecting Borrowers & Lenders</p>
+                </div>
+            </div>
+        </div>
+    )
+}
 
+
+export function HeroSection() {
   return (
     <section className="relative bg-card overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-background"></div>
@@ -44,17 +62,7 @@ export function HeroSection() {
             </div>
           </div>
           <div className="relative hidden md:flex items-center justify-center">
-            {heroImage && (
-              <Image
-                src={heroImage.imageUrl}
-                alt={heroImage.description}
-                width={350}
-                height={700}
-                data-ai-hint={heroImage.imageHint}
-                className="rounded-lg object-contain"
-                priority
-              />
-            )}
+            <MobileAppPreview />
           </div>
         </div>
       </div>
