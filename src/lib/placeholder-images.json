@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "testimonial-1",
+      "description": "A smiling person",
+      "imageUrl": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc2Mjk0NDgzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Another smiling person",
+      "imageUrl": "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NjI5NDQ3MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy person"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "A third smiling person",
+      "imageUrl": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjI5MzU5MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "blog-1",
+      "description": "Abstract financial chart",
+      "imageUrl": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmaW5hbmNlJTIwY2hhcnR8ZW58MHx8fHwxNzYyOTc3NjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance chart"
+    },
+    {
+      "id": "blog-2",
+      "description": "Person signing a document",
+      "imageUrl": "https://images.unsplash.com/photo-1603796846097-bee99e4a601f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaWduaW5nJTIwZG9jdW1lbnR8ZW58MHx8fHwxNzYzMDMyODU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "signing document"
+    },
+    {
+      "id": "blog-3",
+      "description": "Padlock symbolizing security",
+      "imageUrl": "https://images.unsplash.com/photo-1744329629768-e0813d605b79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzZWN1cml0eSUyMGxvY2t8ZW58MHx8fHwxNzYyOTIzNjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "security lock"
+    },
+    {
+      "id": "about-us-hero",
+      "description": "A diverse team collaborating in a modern office.",
+      "imageUrl": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjI5ODE5NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "how-it-works-borrower",
+      "description": "A person looking thoughtful about their finances.",
+      "imageUrl": "https://images.unsplash.com/photo-1530071698688-1e4c30e1ea52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjB0aGlua2luZ3xlbnwwfHx8fDE3NjMwMzE4OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person thinking"
+    },
+    {
+      "id": "how-it-works-lender",
+      "description": "A person reviewing financial documents.",
+      "imageUrl": "https://images.unsplash.com/photo-1761370981247-1dfd749ec96b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZXZpZXdpbmclMjBkb2N1bWVudHN8ZW58MHx8fHwxNzYzMDMyODU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "reviewing documents"
+    },
+    {
+      "id": "hero-illustration",
+      "description": "Abstract illustration of connection and finance.",
+      "imageUrl": "https://images.unsplash.com/photo-1690029670784-155329105e58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGNvbm5lY3Rpb258ZW58MHx8fHwxNzYzMDMyODU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract connection"
+    }
+  ]
 }
