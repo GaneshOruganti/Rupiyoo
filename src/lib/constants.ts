@@ -1,3 +1,4 @@
+
 export const NAV_LINKS = [
   { name: 'Home', href: '/' },
   { name: 'About Us', href: '/about' },
@@ -6,6 +7,8 @@ export const NAV_LINKS = [
   { name: 'FAQ', href: '/faq' },
   { name: 'Contact Us', href: '/contact' },
 ];
+
+export const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.rupiyoo.connect';
 
 export const LEGAL_LINKS = [
   { name: 'Terms & Conditions', href: '/legal/terms-and-conditions' },

@@ -7,7 +7,7 @@ import { Menu, HandCoins } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
-import { NAV_LINKS } from '@/lib/constants';
+import { NAV_LINKS, PLAY_STORE_URL } from '@/lib/constants';
 import { Logo } from '@/components/logo';
 
 export function SiteHeader() {
@@ -34,10 +34,10 @@ export function SiteHeader() {
 
         <div className="flex flex-1 items-center justify-end gap-2">
           <Button variant="outline" asChild className="hidden md:inline-flex">
-            <Link href="/dashboard/lender">Register as Lender</Link>
+            <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer">Register as Lender</Link>
           </Button>
           <Button asChild className="hidden md:inline-flex">
-            <Link href="/dashboard/borrower">Request a Loan</Link>
+            <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer">Request a Loan</Link>
           </Button>
           
           <Sheet>
@@ -68,10 +68,10 @@ export function SiteHeader() {
                 </nav>
                 <div className="mt-auto flex flex-col gap-2 p-4 border-t">
                     <Button variant="outline" asChild size="lg">
-                        <Link href="/dashboard/lender">Register as Lender</Link>
+                        <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer">Register as Lender</Link>
                     </Button>
                     <Button asChild size="lg">
-                        <Link href="/dashboard/borrower">Request a Loan</Link>
+                        <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer">Request a Loan</Link>
                     </Button>
                 </div>
               </div>

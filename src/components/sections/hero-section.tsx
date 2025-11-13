@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Download, Users } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { PLAY_STORE_URL } from '@/lib/constants';
 
 export function HeroSection() {
   const heroImage = PlaceHolderImages.find(p => p.id === 'hero-illustration');
@@ -21,15 +22,20 @@ export function HeroSection() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Button size="lg" asChild>
-                <Link href="/dashboard/borrower">
+                <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer">
                   Request a Loan <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link href="/dashboard/lender">
+                <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer">
                   Become a Lender
                 </Link>
               </Button>
+            </div>
+             <div className="mt-8">
+                <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer" className="inline-block">
+                    <Image src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" width={180} height={68} />
+                </Link>
             </div>
             <div className="mt-8 flex items-center gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">

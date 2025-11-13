@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import { PLAY_STORE_URL } from '@/lib/constants';
 
 export function CallToActionSection() {
   return (
@@ -14,12 +15,12 @@ export function CallToActionSection() {
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button size="lg" asChild>
-            <Link href="/dashboard/borrower">
+            <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer">
               Request a Loan <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <Link href="/dashboard/lender">
+            <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer">
               Register as a Lender
             </Link>
           </Button>
