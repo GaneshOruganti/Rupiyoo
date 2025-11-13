@@ -12,7 +12,7 @@ export function SiteFooter() {
           <div className="lg:col-span-2 pr-8">
             <Logo />
             <p className="mt-4 text-sm text-muted-foreground max-w-sm">
-              Rupiyoo is a digital marketplace connecting verified money lenders with borrowers. We are not a lender, but a facilitator of financial connections.
+              Rupiyoo is a digital platform that connects verified lenders with prospective borrowers. We function as a facilitator, not a direct lender.
             </p>
             <div className="flex space-x-4 mt-6">
               <Link href="#" aria-label="Facebook">
@@ -86,7 +86,7 @@ export function SiteFooter() {
             </a>
           </p>
           <p className="text-xs text-muted-foreground/80 mt-2 md:mt-0 max-w-md text-center md:text-right">
-            Disclaimer: Rupiyoo is a technology platform that facilitates connections between borrowers and lenders. We do not lend money directly or guarantee any loans.
+            Disclaimer: Rupiyoo is a technology platform for facilitating connections between borrowers and lenders. We do not lend money directly or guarantee loans.
           </p>
         </div>
       </div>

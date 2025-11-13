@@ -8,10 +8,10 @@ export function CallToActionSection() {
     <section className="bg-card py-16 md:py-24">
       <div className="container text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">
-          Ready to Get Started?
+          Ready to Begin?
         </h2>
         <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-          Join the Rupiyoo community today. Whether you're looking to borrow or lend, your next financial connection is just a few clicks away.
+          Become a part of the Rupiyoo community now. Whether you're looking to lend or borrow, your next financial opportunity is just a few clicks away.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button size="lg" asChild>

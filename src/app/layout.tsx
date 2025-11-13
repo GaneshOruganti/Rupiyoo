@@ -9,10 +9,10 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
-  title: 'Rupiyoo Connect | Connecting Borrowers & Lenders Seamlessly',
+  title: 'Rupiyoo Connect | Seamlessly Connecting Borrowers & Lenders',
   description:
-    'Rupiyoo is a digital marketplace connecting verified money lenders with borrowers. Request a loan or register as a lender today.',
-  keywords: ['loan', 'lender', 'borrower', 'marketplace', 'finance', 'p2p lending'],
+    'Rupiyoo serves as a digital marketplace to connect verified money lenders with individuals seeking loans. Post a loan request or sign up as a lender today.',
+  keywords: ['loan', 'lender', 'borrower', 'p2p lending', 'personal finance', 'fintech india'],
 };
 
 export default function RootLayout({

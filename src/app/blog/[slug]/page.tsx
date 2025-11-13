@@ -10,31 +10,31 @@ const getPostData = (slug: string) => {
     const posts = [
         {
             slug: 'understanding-your-credit-score',
-            title: 'Understanding Your Credit Score and How to Improve It',
-            description: 'A deep dive into what makes up your credit score and actionable tips to boost it.',
-            category: 'Finance',
+            title: 'Decoding Your Credit Score and How to Elevate It',
+            description: 'An in-depth look at the components of your credit score with practical advice to enhance it.',
+            category: 'Financial Wellness',
             date: 'October 26, 2023',
             image: PlaceHolderImages.find(p => p.id === 'blog-1'),
             content: `
-<p>Your credit score is one of the most important numbers in your financial life. It's a three-digit number that lenders use to help them decide how likely they are to be repaid on time if they grant you a loan or a credit card. In this post, we'll break down what a credit score is, what factors influence it, and how you can work to improve it.</p>
-<h3 class="font-bold text-xl my-4">What Factors Make Up Your Credit Score?</h3>
-<p>While the exact formulas are proprietary to credit bureaus like CIBIL, the general components are well-known:</p>
+<p>Your credit score is a pivotal number in your financial journey. It serves as a key indicator for lenders to assess the likelihood of timely repayments if they extend a loan or credit card. This article will clarify what a credit score is, the factors that shape it, and the steps you can take to improve it.</p>
+<h3 class="font-bold text-xl my-4">What Are the Key Elements of Your Credit Score?</h3>
+<p>While the precise calculations are proprietary to credit reporting agencies, the primary components are widely recognized:</p>
 <ul class="list-disc list-inside space-y-2 my-4">
-<li><strong>Payment History (approx. 35%):</strong> This is the most significant factor. Paying your bills on time, every time, is crucial.</li>
-<li><strong>Amounts Owed (approx. 30%):</strong> This is your credit utilization ratio—how much of your available credit you're using. Lower is better.</li>
-<li><strong>Length of Credit History (approx. 15%):</strong> A longer history of responsible credit management can positively impact your score.</li>
-<li><strong>Credit Mix (approx. 10%):</strong> Lenders like to see that you can manage different types of credit, such as credit cards, mortgages, and personal loans.</li>
-<li><strong>New Credit (approx. 10%):</strong> Opening several new credit accounts in a short period can be a red flag and temporarily lower your score.</li>
+<li><strong>Payment Record (approx. 35%):</strong> This is the most critical element. Consistently paying bills on time is essential.</li>
+<li><strong>Credit Utilization (approx. 30%):</strong> This refers to the proportion of your available credit that you are using. A lower ratio is generally better.</li>
+<li><strong>Duration of Credit History (approx. 15%):</strong> A longer and well-managed credit history can have a positive effect on your score.</li>
+<li><strong>Diversity of Credit (approx. 10%):</strong> Lenders appreciate seeing a mix of different credit types, such as credit cards, mortgages, and installment loans.</li>
+<li><strong>Recent Credit Inquiries (approx. 10%):</strong> Applying for multiple new credit lines in a brief period can be seen as a risk and may temporarily reduce your score.</li>
 </ul>
-<h3 class="font-bold text-xl my-4">Actionable Steps to Improve Your Score</h3>
-<p>Improving your credit score is a marathon, not a sprint. Here are some steps to get you on the right track:</p>
+<h3 class="font-bold text-xl my-4">Practical Strategies for Score Improvement</h3>
+<p>Enhancing your credit score is a long-term commitment. Here are some effective strategies:</p>
 <ol class="list-decimal list-inside space-y-2 my-4">
-<li><strong>Check Your Credit Report:</strong> Look for errors and dispute any you find. You're entitled to a free report from each bureau annually.</li>
-<li><strong>Set Up Payment Reminders:</strong> Automate payments or set up alerts to ensure you never miss a due date.</li>
-<li><strong>Pay Down Debt:</strong> Focus on paying down credit card balances to lower your credit utilization ratio.</li>
-<li><strong>Avoid Opening Unnecessary Accounts:</strong> Only apply for new credit when you truly need it.</li>
+<li><strong>Review Your Credit Report:</strong> Check for any inaccuracies and dispute them. You are entitled to a complimentary report from each major bureau every year.</li>
+<li><strong>Automate Payments:</strong> Set up automatic payments or reminders to avoid missing due dates.</li>
+<li><strong>Reduce Existing Debt:</strong> Concentrate on paying down credit card balances to decrease your credit utilization ratio.</li>
+<li><strong>Be Selective with New Credit:</strong> Only apply for new credit when it's genuinely necessary.</li>
 </ol>
-<p>By understanding these factors and taking proactive steps, you can build a strong credit history that opens doors to better financial opportunities.</p>
+<p>By grasping these concepts and implementing these strategies, you can cultivate a robust credit profile that unlocks greater financial opportunities.</p>
             `
         },
     ];

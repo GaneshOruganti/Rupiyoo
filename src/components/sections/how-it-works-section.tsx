@@ -4,36 +4,36 @@ import { UserPlus, Handshake, FileSearch, Target, Wallet, MessageSquare } from "
 const borrowerSteps = [
     {
         icon: <UserPlus className="h-8 w-8 text-primary" />,
-        title: "Post Your Requirement",
-        description: "Sign up and post your loan needs, including amount and location, securely and privately."
+        title: "Define Your Requirement",
+        description: "Sign up and detail your loan needs, including amount and location, in a secure and private manner."
     },
     {
         icon: <FileSearch className="h-8 w-8 text-primary" />,
-        title: "Get Matched",
-        description: "Our platform connects your request with verified lenders in your vicinity who can meet your needs."
+        title: "Receive a Match",
+        description: "Our system connects your request with verified lenders in your area who are able to meet your needs."
     },
     {
         icon: <Handshake className="h-8 w-8 text-primary" />,
-        title: "Connect & Transact",
-        description: "Communicate directly with interested lenders through our secure chat to finalize terms and receive funds."
+        title: "Connect and Finalize",
+        description: "Engage directly with interested lenders via our secure chat to agree on terms and receive your funds."
     }
 ];
 
 const lenderSteps = [
     {
         icon: <Wallet className="h-8 w-8 text-accent" />,
-        title: "Create Your Profile",
-        description: "Register as a lender, complete our secure KYC verification, and set your lending criteria."
+        title: "Build Your Profile",
+        description: "Register as a lender, pass our secure KYC verification, and specify your lending preferences."
     },
     {
         icon: <Target className="h-8 w-8 text-accent" />,
-        title: "Discover Requests",
-        description: "Browse a real-time feed of loan requests from borrowers in your chosen geographical area."
+        title: "Identify Opportunities",
+        description: "Explore a live feed of loan requests from borrowers located in your designated geographical areas."
     },
     {
         icon: <MessageSquare className="h-8 w-8 text-accent" />,
-        title: "Connect & Lend",
-        description: "Initiate conversations with borrowers, negotiate terms, and grow your lending portfolio safely."
+        title: "Engage and Lend",
+        description: "Start conversations with borrowers, negotiate terms, and expand your lending portfolio securely."
     }
 ];
 
@@ -43,10 +43,10 @@ export function HowItWorksSection() {
             <div className="container">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">
-                        A Simple Path to Financial Connections
+                        An Easy Path to Financial Partnerships
                     </h2>
                     <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-                        Whether you need a loan or want to lend, our streamlined process makes it easy and secure.
+                        Whether you're looking to borrow or lend, our efficient process ensures a secure and simple experience.
                     </p>
                 </div>
 

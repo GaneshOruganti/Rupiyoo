@@ -5,31 +5,31 @@ import { ContactForm } from './contact-form';
 
 export const metadata: Metadata = {
   title: 'Contact Us | Rupiyoo Connect',
-  description: 'Get in touch with the Rupiyoo support team. We are here to help you with your queries.',
+  description: 'Connect with the Rupiyoo support team. We are available to assist you with your questions.',
 };
 
 const contactDetails = [
   {
     icon: <Mail className="h-6 w-6 text-primary" />,
-    title: "Support Email",
+    title: "Email Support",
     value: "support@rupiyoo.connect",
     href: "mailto:support@rupiyoo.connect"
   },
   {
     icon: <Phone className="h-6 w-6 text-primary" />,
-    title: "Phone",
+    title: "Helpline",
     value: "+91 12345 67890",
     href: "tel:+911234567890"
   },
   {
     icon: <MessageCircle className="h-6 w-6 text-primary" />,
-    title: "WhatsApp",
+    title: "WhatsApp Chat",
     value: "+91 12345 67890",
     href: "https://wa.me/911234567890"
   },
   {
     icon: <Clock className="h-6 w-6 text-primary" />,
-    title: "Operating Hours",
+    title: "Business Hours",
     value: "Mon - Fri, 9:00 AM - 6:00 PM IST"
   }
 ];
@@ -39,9 +39,9 @@ export default function ContactPage() {
     <>
       <section className="bg-card pt-12">
         <div className="container text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Get in Touch</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Contact Our Team</h1>
           <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-            We're here to help. Whether you have a question about our features, a suggestion, or need support, please don't hesitate to reach out.
+            We are here to assist. If you have a query about our platform, a suggestion for improvement, or require any support, feel free to reach out.
           </p>
         </div>
       </section>
@@ -71,7 +71,7 @@ export default function ContactPage() {
             
             <Card>
               <CardHeader>
-                <CardTitle className="text-2xl">Send us a message</CardTitle>
+                <CardTitle className="text-2xl">Send a direct message</CardTitle>
               </CardHeader>
               <CardContent>
                 <ContactForm />

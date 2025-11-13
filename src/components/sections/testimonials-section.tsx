@@ -14,19 +14,19 @@ const testimonials = [
   {
     name: "Priya S.",
     role: "Borrower, Delhi",
-    quote: "Rupiyoo was a lifesaver! I needed funds urgently for a medical emergency, and I got connected with a very understanding lender in my area within hours. The process was so simple and transparent.",
+    quote: "Rupiyoo was a real help! I needed funds for a family emergency and was connected to an understanding lender nearby in just a few hours. The entire process was straightforward and clear.",
     avatar: PlaceHolderImages.find(p => p.id === 'testimonial-1')
   },
   {
     name: "Amit K.",
     role: "Lender, Mumbai",
-    quote: "As a lender, I'm always looking for secure platforms. Rupiyoo's verification process gave me the confidence to lend. I've had great success finding genuine borrowers here.",
+    quote: "As a lender, platform security is my top priority. Rupiyoo's thorough verification process gave me the assurance I needed to lend. I have successfully found genuine borrowers here.",
     avatar: PlaceHolderImages.find(p => p.id === 'testimonial-2')
   },
   {
     name: "Sunita R.",
     role: "Borrower, Bangalore",
-    quote: "I was hesitant to use an online platform, but Rupiyoo's focus on privacy and security is commendable. The in-app chat is great, and I never had to share my personal number.",
+    quote: "I was initially hesitant about online platforms, but Rupiyoo's commitment to privacy is truly impressive. The secure in-app chat is a great feature, and I never had to disclose my phone number.",
     avatar: PlaceHolderImages.find(p => p.id === 'testimonial-3')
   }
 ];
@@ -37,10 +37,10 @@ export function TestimonialsSection() {
             <div className="container">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">
-                        Trusted by Thousands of Users
+                        Valued by Our Community
                     </h2>
                     <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-                        Hear what our users have to say about their experience with Rupiyoo Connect.
+                        Read what our users are saying about their experience with Rupiyoo Connect.
                     </p>
                 </div>
                 

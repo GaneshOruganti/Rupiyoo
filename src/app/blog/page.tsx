@@ -8,30 +8,30 @@ import { ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Blog | Rupiyoo Connect',
-  description: 'Read our latest articles on finance, lending, credit scores, safety, and fraud prevention.',
+  description: 'Explore our latest articles on financial insights, secure lending, credit health, and fraud awareness.',
 };
 
 const blogPosts = [
   {
     slug: 'understanding-your-credit-score',
-    title: 'Understanding Your Credit Score and How to Improve It',
-    description: 'A deep dive into what makes up your credit score and actionable tips to boost it.',
-    category: 'Finance',
+    title: 'Decoding Your Credit Score and How to Elevate It',
+    description: 'An in-depth look at the components of your credit score with practical advice to enhance it.',
+    category: 'Financial Wellness',
     date: 'October 26, 2023',
     image: PlaceHolderImages.find(p => p.id === 'blog-1')
   },
   {
     slug: 'safe-lending-practices',
-    title: '5 Safe Lending Practices for Peer-to-Peer Platforms',
-    description: 'Learn how to protect yourself and your investment when lending money on P2P platforms like Rupiyoo.',
-    category: 'Lending',
+    title: 'Five Secure Lending Strategies for P2P Platforms',
+    description: 'Discover how to safeguard your capital when participating in peer-to-peer lending on platforms like Rupiyoo.',
+    category: 'Peer-to-Peer Lending',
     image: PlaceHolderImages.find(p => p.id === 'blog-2')
   },
   {
     slug: 'spotting-and-avoiding-fraud',
-    title: 'How to Spot and Avoid Financial Fraud Online',
-    description: 'Stay vigilant and protect your finances. We cover the most common scams and how to avoid them.',
-    category: 'Security',
+    title: 'Identifying and Preventing Online Financial Scams',
+    description: 'Stay proactive and secure your finances. We discuss prevalent scams and how you can steer clear of them.',
+    category: 'Cybersecurity',
     date: 'October 22, 2023',
     image: PlaceHolderImages.find(p => p.id === 'blog-3')
   }
@@ -42,9 +42,9 @@ export default function BlogPage() {
     <>
       <section className="bg-card pt-12">
         <div className="container text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Our Blog</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Rupiyoo Insights</h1>
           <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-            Insights on personal finance, safe lending, and getting the most out of the Rupiyoo platform.
+            Knowledge on personal finance, safe lending practices, and optimizing your experience on the Rupiyoo platform.
           </p>
         </div>
       </section>

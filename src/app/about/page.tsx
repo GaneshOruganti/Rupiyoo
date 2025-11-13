@@ -6,29 +6,29 @@ import { ShieldCheck, Eye, FileText, Handshake } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'About Us | Rupiyoo Connect',
-  description: 'Learn about Rupiyoo\'s mission to create a transparent, secure, and efficient marketplace for borrowers and lenders.',
+  description: 'Discover Rupiyoo\'s mission to forge a transparent, secure, and streamlined marketplace for borrowers and lenders.',
 };
 
 const values = [
     {
         icon: <ShieldCheck className="h-8 w-8 text-primary" />,
-        title: "Security",
-        description: "We employ state-of-the-art security measures to protect your data and privacy at every step."
+        title: "Uncompromising Security",
+        description: "We utilize advanced security protocols to safeguard your information and privacy at all times."
     },
     {
         icon: <Eye className="h-8 w-8 text-primary" />,
-        title: "Transparency",
-        description: "We believe in clear communication. There are no hidden fees or surprise terms on our platform."
+        title: "Total Transparency",
+        description: "We operate with complete clarity. You'll find no hidden charges or unexpected conditions on our platform."
     },
     {
         icon: <FileText className="h-8 w-8 text-primary" />,
-        title: "Compliance",
-        description: "We are committed to upholding all applicable laws and digital lending guidelines to ensure a fair marketplace."
+        title: "Regulatory Compliance",
+        description: "Our commitment is to adhere to all digital lending regulations to foster a fair and lawful marketplace."
     },
     {
         icon: <Handshake className="h-8 w-8 text-primary" />,
-        title: "Fair Practices",
-        description: "Our platform promotes responsible lending and borrowing, fostering a community built on mutual respect."
+        title: "Ethical Practices",
+        description: "Our ecosystem promotes responsible financial interactions, building a community founded on integrity."
     }
 ];
 
@@ -39,9 +39,9 @@ export default function AboutPage() {
     <>
       <section className="bg-card pt-12">
         <div className="container text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Our Mission: Financial Empowerment Through Connection</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Our Goal: Empowering Finance Through Direct Connections</h1>
           <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
-            We are dedicated to building a trusted bridge between those who need financial support and those who can provide it, fostering a community of growth and opportunity.
+            We are committed to creating a reliable bridge between individuals seeking financial aid and those able to provide it, nurturing a community of mutual growth.
           </p>
         </div>
       </section>
@@ -64,15 +64,15 @@ export default function AboutPage() {
       <section className="py-12 md:py-16 bg-background">
         <div className="container grid md:grid-cols-2 gap-12 items-center">
             <div>
-                <h2 className="text-3xl font-bold tracking-tight">The Problem We Solve</h2>
+                <h2 className="text-3xl font-bold tracking-tight">The Challenge We Address</h2>
                 <p className="mt-4 text-muted-foreground">
-                    In today's financial landscape, finding trustworthy credit can be challenging for individuals, while lenders struggle to find verified, creditworthy borrowers. Traditional systems are often slow, opaque, and inaccessible. Rupiyoo was born from the desire to solve this disconnect. We leverage technology to create a transparent, efficient, and secure digital marketplace where both parties can connect with confidence.
+                    In the current financial environment, securing reliable credit can be a major hurdle for many, while lenders face difficulties in locating verified, credit-worthy borrowers. Conventional financial systems are often sluggish, non-transparent, and not easily accessible. Rupiyoo was created to overcome this gap. We use technology to establish a clear, effective, and safe digital marketplace where both borrowers and lenders can engage with assurance.
                 </p>
             </div>
             <div>
-                <h2 className="text-3xl font-bold tracking-tight">Our Vision for the Future</h2>
+                <h2 className="text-3xl font-bold tracking-tight">Our Forward-Looking Vision</h2>
                 <p className="mt-4 text-muted-foreground">
-                    Our vision is to be India's most trusted platform for peer-to-peer financial connections. We aim to empower millions by providing a level playing field where financial needs are met with integrity and respect. We are constantly innovating to make our platform safer, faster, and more user-friendly, ensuring that Rupiyoo remains the gold standard for digital lending marketplaces.
+                    We envision becoming India's most dependable platform for peer-to-peer financial engagement. Our goal is to empower millions by offering a fair and accessible space where financial needs are met with dignity and transparency. We are dedicated to continuous innovation to enhance the safety, speed, and user-friendliness of our platform, ensuring Rupiyoo sets the benchmark for digital lending marketplaces.
                 </p>
             </div>
         </div>
@@ -81,9 +81,9 @@ export default function AboutPage() {
       <section className="py-16 md:py-24 bg-card">
         <div className="container">
             <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">Our Core Values</h2>
+                <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">Our Foundational Principles</h2>
                 <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
-                    Trust is the foundation of our platform. These values guide every decision we make.
+                    Trust is the bedrock of our service. These principles inform every action we take.
                 </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
